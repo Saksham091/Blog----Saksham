@@ -1,0 +1,91 @@
+.greet {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.greet h1 {
+    margin-bottom: 0%;
+}
+
+.greet p {
+    font-size: larger;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_page {
+    background-color: #2A9AEA;
+    width: 70%;
+    height: 71vh;
+    margin-left: 1%;
+}
+
+.info_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.personal_blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary_page {
+    background-color: #00EC9D;
+    width: 30%;
+    height: 71vh;
+    margin-right: 1%;
+}
+
+.title {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    font-size: larger;
+}
+
+.your_title {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    font-size: larger;
+}
+
+.body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    font-size: larger;
+    margin-top: 2%;
+}
+
+.submit_blog {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.submit_blog button {
+    border-radius: 25px;
+    width: 35%;
+    height: 3rem;
+}
