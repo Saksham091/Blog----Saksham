@@ -1,0 +1,60 @@
+.login {
+    background-color: #27BAE7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login p {
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.login-form {
+    background-color: #133BAA;
+    height: 80%;
+    width: 90%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8%;
+    height: 100%;
+    width: 100%;
+}
+
+.profile p {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #D1D5D8;
+}
+
+input {
+    width: 64rem;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+.submit {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button {
+    border-radius: 25px;
+    width: 35%;
+    height: 3rem;
+}
+
+.change {
+    font-size: 2rem;
+    color: #ffff;
+}
